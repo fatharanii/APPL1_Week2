@@ -143,13 +143,6 @@ public class CirclePanel extends JPanel
             }else{
                 down.setEnabled(false);
             }
-
-
-            if((y+dy+CIRCLE_SIZE)<height && (y+dy)>0){
-                y += dy;
-            }else{
-
-            }
             repaint();
         }
     }
